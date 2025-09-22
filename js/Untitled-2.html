@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>会社情報｜TTF株式会社</title>
+
+  <!-- 复用你现有的依赖 -->
+  <link rel="icon" href="assets/imgs/icon3.jpg" />
+  <link rel="stylesheet" href="assets/css/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+  <!-- 顶部导航（沿用你现有的） -->
+  <nav class="navbar navbar-expand-lg bg-white py-2 fixed-top shadow-sm">
+    <div class="container-fluid container-md">
+      <a class="navbar-brand fw-bold fs-2" href="index.html">TTF<span class="text-main">株式会社</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto gap-2 gap-lg-3 mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">ホーム</a></li>
+          <li class="nav-item"><a class="nav-link active" href="company.html">会社情報</a></li>
+          <li class="nav-item"><a class="nav-link" href="services.html">事業紹介</a></li>
+          <li class="nav-item"><a class="nav-link" href="properties.html">物件情報</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="pt-5">
+    <!-- 面包屑 + 页头 -->
+    <section class="bg-body-tertiary border-bottom">
+      <div class="container py-4">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item"><a href="index.html">ホーム</a></li>
+            <li class="breadcrumb-item active" aria-current="page">会社情報</li>
+          </ol>
+        </nav>
+        <h1 class="display-5 fw-bold">会社情報</h1>
+        <p class="text-muted mb-0">TTF株式会社の概要・理念・アクセス情報をご案内します。</p>
+      </div>
+    </section>
+
+    <!-- 目录锚点（可选） -->
+    <section class="border-bottom">
+      <div class="container py-3">
+        <ul class="nav nav-pills gap-2 small">
+          <li class="nav-item"><a class="nav-link active" href="#outline">会社概要</a></li>
+          <li class="nav-item"><a class="nav-link" href="#philosophy">経営理念</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">会社紹介</a></li>
+          <li class="nav-item"><a class="nav-link" href="#office">事業所情報</a></li>
+          <li class="nav-item"><a class="nav-link" href="#access">アクセス</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 1) 会社概要 -->
+    <section id="outline">
+      <div class="container py-5">
+        <h2 class="h3 fw-bold mb-4">会社概要</h2>
+
+        <!-- 采用两列：左侧标题右侧内容（移动端自动单列） -->
+        <div class="row g-4">
+          <div class="col-12 col-lg-8">
+            <div class="table-responsive">
+              <table class="table align-middle">
+                <tbody>
+                  <tr><th class="w-25">会社商号</th><td>TTF株式会社</td></tr>
+                  <tr><th>所在地</th><td>東京都新宿区新宿2丁目12−16 セントフォービル 502</td></tr>
+                  <tr><th>TEL / FAX</th><td>TEL: 03-6555-6106 ／ FAX: 03-6555-7606</td></tr>
+                  <tr><th>受付時間</th><td>Mon–Sat 10:00–18:00（<span class="text-muted">水・日 定休</span>）</td></tr>
+
+                  <!-- 以下为结构占位，可按需填写或删除 -->
+                  <tr><th>事業内容</th><td><!-- 例：不動産売買・賃貸仲介、開発、管理 等 --></td></tr>
+                  <tr><th>資本金</th><td><!-- 例：◯◯◯万円 --></td></tr>
+                  <tr><th>設立</th><td><!-- 例：20XX年XX月 --></td></tr>
+                  <tr><th>代表者</th><td><!-- 例：代表取締役 ◯◯ ◯◯ --></td></tr>
+                  <tr><th>従業員数</th><td><!-- 例：◯◯名（グループ含む） --></td></tr>
+                  <tr><th>取引銀行</th><td><!-- 例：◯◯銀行、◯◯信用金庫 --></td></tr>
+                  <tr><th>法人番号</th><td><!-- 例：◯◯◯◯◯◯◯◯◯◯ --></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- 可选：右侧放公司照片/标志/下载资料按钮 -->
+          <div class="col-12 col-lg-4">
+            <div class="p-4 rounded-3 border bg-white h-100">
+              <h3 class="h6 text-uppercase text-muted">Company Assets</h3>
+              <ul class="list-unstyled small mb-0">
+                <li class="mb-2"><i class="bi bi-download me-2"></i><a href="#">会社案内PDF</a></li>
+                <li class="mb-2"><i class="bi bi-file-text me-2"></i><a href="#">沿革（年表）</a></li>
+                <li class="mb-2"><i class="bi bi-people me-2"></i><a href="#">採用情報</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 2) 経営理念 -->
+    <section id="philosophy" class="bg-body-tertiary">
+      <div class="container py-5">
+        <h2 class="h3 fw-bold mb-4">経営理念</h2>
+
+        <!-- 简短愿景/标语（自填） -->
+        <div class="p-4 p-lg-5 bg-white border rounded-3 mb-4">
+          <p class="lead mb-0"><!-- 例：信頼と実績で、不動産資産の価値を最大化する。 --></p>
+        </div>
+
+        <!-- 三列要点（移动端自动单列） -->
+        <div class="row g-4">
+          <div class="col-12 col-md-4">
+            <div class="p-4 bg-white border rounded-3 h-100">
+              <h3 class="h6 text-uppercase text-muted mb-2">ミッション 1</h3>
+              <p class="mb-0 small"><!-- 例：顧客の未来に貢献する価値提供 --></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="p-4 bg-white border rounded-3 h-100">
+              <h3 class="h6 text-uppercase text-muted mb-2">ミッション 2</h3>
+              <p class="mb-0 small"><!-- 例：誠実・迅速・透明な対応 --></p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div
